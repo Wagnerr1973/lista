@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css" />
+
+    <title>Lista de Elementos</title>
+
+</head>
+
+<body>
+    <main>
+    <h2>Lista de Elementos</h2>
+
+    <!-- O método appendChild() insere um novo nó na estrutura do Modelo de Objeto de Documento - (DOM) de um
+        documento, e é a segunda parte do processo de criar e adicionar itens, tão importante na construção de
+        páginas web em termos de programação.-->
+
+        Lista de Compras:
+                <ul style="list-style-type: none" Id="MinhaLista">
+                    <li>ferramenta</li>
+                    <li>carro</li>
+                    <li>casa</li>
+                    <li>apartamento</li>
+                    <li>eletrodoméstico</li>
+                </ul>
+    </p>
+
+    <input type=" text" id="itemlista">
+
+    <!-- <button onclick="FuncaoAcrescentar()">Acrescentar Item</button> -->
+    <p>
+        <input type="button" id="AcrescentarItem" onclick="FuncaoAcrescentar()" value="Acrescentar Item" />
+
+    </p>
+    <p>
+        <label for="itemlista">Itens da Lista de Compras:</label>
+
+        <br>
+        <input type="radio" style="color: blue" name="cores" value="blue" /> Azul
+        <input type="radio" style="color: green" name="cores" value="green" /> Verde
+        <input type="radio" style="color: red" name="cores" value="red" /> Vermelho
+        <input type="radio" style="color: yellow" name="cores" value="yellow"/> Amarelo
+        <input type="radio" style="color: orange" name="cores" value="orange"/> Laranja
+        <br>
+
+    </p>
+</main>
+
+    <script src="lista.js"></script>
+</body>
+
+</html>
